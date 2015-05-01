@@ -4,11 +4,11 @@ class PinsController < ApplicationController
 	end
 
 	def new
-		@pin = Pins.new
+		@pin = Pin.new
 	end
 
 	def create
-		@pin = Pins.new(pin_params)
+		@pin = Pin.new(pin_params)
 	end
 
 	private
